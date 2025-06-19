@@ -10,3 +10,4 @@ class Solution(object):
         # or
         # y = str(x)
         # return y == y[::-1]
+    
