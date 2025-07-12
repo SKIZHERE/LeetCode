@@ -1,0 +1,3 @@
+# 181. Employees Earning More Than Their Managers
+
+select e.name as Employee from Employee e join Employee f on e.managerId = f.id where e.salary>f.salary;
