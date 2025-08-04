@@ -1,4 +1,3 @@
-import math
-
-n = int(input())
-print(f"{math.log(n, 2):.5f}")
+num = 123
+num = sum([int(i) for i in str(num)])
+print(num)
