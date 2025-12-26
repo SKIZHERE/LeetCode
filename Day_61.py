@@ -15,9 +15,5 @@ class Solution(object):
         if not root: return 0
         if root.left is None and root.right is None:
             return 1
-        if root.left is None:
-            return self.countNodes(root.right) + 1
-        if root.right is None:
-            return self.countNodes(root.left) + 1
         else:
             return self.countNodes(root.right) + self.countNodes(root.left) + 1
